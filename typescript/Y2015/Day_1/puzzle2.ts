@@ -10,7 +10,7 @@ arrayFromInput.forEach(char => {
 	if (resultFloor === -1) {
 		console.log(negativeFloorPos)
 	}
-	switch(char) {
+	switch (char) {
 		case '(':
 			negativeFloorPos += 1;
 			return resultFloor += 1;

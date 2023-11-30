@@ -6,7 +6,7 @@ const arrayFromInput = input.split('');
 let resultFloor = 0;
 
 arrayFromInput.forEach(char => {
-  switch(char) {
+	switch (char) {
 		case '(':
 			return resultFloor += 1;
 		case ')':
